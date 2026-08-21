@@ -237,3 +237,43 @@ body {
     color: black;
     font-size: 14px;
 }
+
+.cboxgroup {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cbox1 {
+    width: 600px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.footer-section {
+    width: 100%;
+    min-height: 80px;
+    background-color: antiquewhite ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 25px 20px 50px 20px;
+    box-sizing: border-box;
+}
+
+.footer-section p {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
